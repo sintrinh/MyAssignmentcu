@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Quản Lí Chi Tiêu </string>
+    <string name="title_activity_quanlithuchi">Quản Lí Chi Tiêu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="bieu_do">
+        <item>Hôm Nay</item>
+        <item>Tháng Này</item>
+        <item>Năm này</item>
+    </string-array>
+
+
+
+    <string-array name="tai_khoan">
+        <item>Tiền Mặt</item>
+        <item>Tiết kiệm</item>
+        <item>Tín dụng</item>
+    </string-array>
+    <string-array name="loaithuchi">
+        <item>Khoản chi</item>
+        <item>Khoản Thu</item>
+    </string-array>
+    <string-array name="phan_nhom">
+        <item>Mua Sắm</item>
+        <item>Tiền Điện</item>
+        <item>Tiền Nước</item>
+        <item>Y Tế , Sức Khỏe</item>
+        <item>Giải trí</item>
+        <item>Trả Nợ</item>
+        <item>Tiền Điện Thoại</item>
+        <item>Ăn Uống</item>
+        <item>Cho Vay</item>
+    </string-array>
+    <string-array name="trang_thai">
+        <item>Đã Trả</item>
+        <item>Chưa Trả</item>
+    </string-array>
+
+    <string name="Snthongke">Tháng Này</string>
+
+    <string-array name="Snthongke">
+        <item>Hôm Nay</item>
+        <item>Tuần Này</item>
+        <item>Tháng Này</item>
+        <item>Năm Nay</item>
+    </string-array>
+
+
+    <string name="title_activity_viewgiaodich_activity">Viewgiaodich_activity</string>
+
+
+</resources>
+
+

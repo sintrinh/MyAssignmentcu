@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+
+        <Spinner
+            android:background="@drawable/spin_css"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinthongke"></Spinner>
+      <RelativeLayout
+          android:id="@+id/tongthuthuchi"
+          android:layout_below="@+id/spinthongke"
+          android:layout_width="match_parent"
+          android:layout_height="180dp">
+          <TextView
+              android:layout_marginTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Tổng Thu"
+              android:textColor="#FFFFFFFF"
+              android:background="#f5624e"
+              android:textSize="20dp"
+              android:id="@+id/tvthu"
+              />
+          <ListView
+              android:layout_below="@id/tvthu"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/listtongthuthongke"></ListView>
+
+
+      </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tongthuthuchi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tổng Chi"
+            android:textColor="#FFFFFFFF"
+            android:background="#f5624e"
+            android:textSize="20dp"
+            android:id="@+id/tvchi"
+            />
+        <ListView
+            android:layout_below="@id/tvchi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listtongchithongke"></ListView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
